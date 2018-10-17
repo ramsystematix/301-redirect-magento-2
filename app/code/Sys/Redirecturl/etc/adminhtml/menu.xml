@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Sys_Redirecturl::parent" title="Redirecturl" module="Sys_Redirecturl" sortOrder="100" resource="Sys_Redirecturl::parent"/>
+		<add id="Sys_Redirecturl::redirecturl" title="Sys Redirecturl" module="Sys_Redirecturl" sortOrder="20" parent="Sys_Redirecturl::parent" action="redirecturl/redirecturl" resource="Sys_Redirecturl::redirecturl"/>
+
+    </menu>
+</config>
